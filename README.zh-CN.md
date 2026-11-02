@@ -78,6 +78,21 @@ Agent 说话就行 ——「记一下 X」「搜一下我写过的 Y」「给这
 这些 skill 是标准的 Agent Skills：一个包含 `SKILL.md`（带 `name` 与 `description`
 frontmatter）的目录。任何支持该规范的客户端的发现方式都一样 —— 指向一个 skills 目录。
 
+### 从 SkillHub 一键安装（推荐）
+
+4 个 skill 作为一个聚合包发布在 [SkillHub](https://skillhub.cn) 这个社区源上，由
+`@user_8b1262dd` 发布，条目就是 `caigen-notes`（displayName 菜根笔记）—— 菜根笔记官方聚合
+包，一个条目即可装齐全部 4 个子 skill（`caigen-note`、`caigen-search`、`caigen-tag`、
+`caigen-auth`）。`skillhub` CLI 也从同一个站点获取（`pip install skillhub`）；装好之后一条
+命令即可装齐：
+
+```bash
+skillhub install caigen-notes --dir ~/.agents/skills
+```
+
+装完请重启 Agent 客户端，让它重新扫描 skills。`caigen` CLI 本身仍需安装并登录：先执行
+`npm install -g @caigen/cli`，再执行 `caigen auth login --api-key cg_live_xxx`。
+
 - **Hermes 及其它读取 `~/.agents/skills` 的客户端** —— 执行第 3 步的 `caigen setup`，然后
   重启会话。skills 会落在 `~/.agents/skills`，客户端自动加载。
 - **Claude Code** —— 把 4 个 skill 目录复制到 `~/.claude/skills`（个人全局）或

@@ -1,4 +1,9 @@
 ---
+slug: caigen-tag
+displayName: Caigen Tag
+version: 0.1.0
+summary: 管理菜根笔记标签：列出全部标签、给笔记加标签、从笔记移除标签。
+license: MIT
 name: caigen-tag
 description: 查看菜根笔记的全部标签、给笔记加标签、从笔记移除标签。用户说“我有哪些标签/标签列表”“给它加个 #读书/打个标签”“把 #临时 去掉/取消这个标签”“这条笔记是哪些分类”时使用。
 ---

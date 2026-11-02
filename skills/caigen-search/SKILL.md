@@ -1,4 +1,9 @@
 ---
+slug: caigen-search
+displayName: Caigen Search
+version: 0.1.0
+summary: 关键词与语义双模式搜索菜根笔记内容并处理分页。
+license: MIT
 name: caigen-search
 description: 搜索菜根笔记内容，支持关键词与语义两种模式并处理分页。用户说“搜一下/找一下/查一下我写过什么”“搜关键词 X”“语义搜索/找相似的内容”“我关于某个话题记过什么”时使用。
 ---

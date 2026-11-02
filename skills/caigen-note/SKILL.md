@@ -1,4 +1,9 @@
 ---
+slug: caigen-note
+displayName: Caigen Note
+version: 0.1.0
+summary: 保存笔记、列出笔记、读取笔记全文，通过官方 caigen CLI 接入菜根笔记。
+license: MIT
 name: caigen-note
 description: 保存笔记、列出笔记、读取笔记全文。用户说“记一下/帮我记/新建笔记”“加个 todo/待办”“看看我的笔记/最近写了什么/有哪些笔记”“打开第 X 条/看看那条笔记写了什么”时使用。
 ---

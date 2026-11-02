@@ -84,6 +84,23 @@ The skills are standard Agent Skills: a directory containing `SKILL.md` with `na
 `description` frontmatter. Every client that supports the format discovers them the same
 way — point it at a skills directory.
 
+### Install from SkillHub (one command)
+
+All four skills ship as a single aggregate package on [SkillHub](https://skillhub.cn) — the
+community source for Agent Skills. The package is published by `@user_8b1262dd` as
+`caigen-notes` (display name 菜根笔记), the official Caigen Notes bundle: one entry installs
+all four sub-skills (`caigen-note`, `caigen-search`, `caigen-tag`, `caigen-auth`). The
+`skillhub` CLI comes from the same site (`pip install skillhub`); with it installed, one
+command pulls the lot:
+
+```bash
+skillhub install caigen-notes --dir ~/.agents/skills
+```
+
+Restart your agent client afterwards so it picks up the new skills. The `caigen` CLI must still
+be installed and logged in: run `npm install -g @caigen/cli` first, then
+`caigen auth login --api-key cg_live_xxx`.
+
 - **Hermes and other `~/.agents/skills` clients** — run `caigen setup` (step 3) and restart
   the session. The skills land in `~/.agents/skills` and are picked up automatically.
 - **Claude Code** — copy the four skill directories into `~/.claude/skills` (personal) or

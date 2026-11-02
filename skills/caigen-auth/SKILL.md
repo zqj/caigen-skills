@@ -1,4 +1,9 @@
 ---
+slug: caigen-auth
+displayName: Caigen Auth
+version: 0.1.0
+summary: 安装 caigen CLI、配置 API Key、查看与清除菜根笔记登录状态。
+license: MIT
 name: caigen-auth
 description: 安装菜根笔记 CLI、配置 API Key、查看与清除登录状态，把本机接入菜根笔记云端服务。用户说“安装/连接/登录/配置 Key”“没登录/提示未登录”“退出登录/登出”“看看登录状态”“装一下 caigen skill”时使用。
 ---
