@@ -1,0 +1,35 @@
+{
+  "name": "@caigen/skills",
+  "version": "0.1.0",
+  "description": "Agent Skills for Caigen Notes - save, search, tag, and read your AI-native notes from any agent client.",
+  "license": "MIT",
+  "type": "module",
+  "author": "Caigen Notes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zqj/caigen-skills.git"
+  },
+  "homepage": "https://github.com/zqj/caigen-skills#readme",
+  "bugs": {
+    "url": "https://github.com/zqj/caigen-skills/issues"
+  },
+  "keywords": [
+    "notes",
+    "note-taking",
+    "agent-skills",
+    "claude",
+    "hermes",
+    "mcp",
+    "ai-agents",
+    "caigen"
+  ],
+  "files": [
+    "skills",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
