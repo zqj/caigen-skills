@@ -1,7 +1,7 @@
 ---
 slug: caigen-notes
 displayName: 菜根笔记
-version: 0.1.0
+version: 0.1.1
 summary: 菜根笔记——云端 AI 原生笔记。一套官方 Agent Skills 让你的 AI 助手直接记笔记、搜索、管标签、管登录，全部通过 caigen CLI 驱动。
 license: MIT
 category: 知识管理
